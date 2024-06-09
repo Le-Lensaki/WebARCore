@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebARCore", "WebARCore\WebARCore.csproj", "{04D31BAA-FA5E-46D6-AACD-A02A3D81B3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04D31BAA-FA5E-46D6-AACD-A02A3D81B3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D31BAA-FA5E-46D6-AACD-A02A3D81B3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D31BAA-FA5E-46D6-AACD-A02A3D81B3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D31BAA-FA5E-46D6-AACD-A02A3D81B3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D39D8A19-CE7B-4680-BBAA-1D6B06DF738D}
+	EndGlobalSection
+EndGlobal

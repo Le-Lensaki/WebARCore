@@ -1,0 +1,171 @@
+﻿body {
+}
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+@-webkit-keyframes time {
+    to {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes time {
+    to {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes time {
+    to {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes time {
+    to {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes stop {
+    70% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 60px;
+        height: 60px;
+        margin: -30px -30px;
+    }
+
+    100% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 64px;
+        height: 64px;
+        margin: -32px -32px;
+    }
+}
+
+@-moz-keyframes stop {
+    70% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 60px;
+        height: 60px;
+        margin: -30px -30px;
+    }
+
+    100% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 64px;
+        height: 64px;
+        margin: -32px -32px;
+    }
+}
+
+@-o-keyframes stop {
+    70% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 60px;
+        height: 60px;
+        margin: -30px -30px;
+    }
+
+    100% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 64px;
+        height: 64px;
+        margin: -32px -32px;
+    }
+}
+
+@keyframes stop {
+    70% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 60px;
+        height: 60px;
+        margin: -45px -45px;
+    }
+
+    100% {
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 64px;
+        height: 64px;
+        margin: -45px -45px;
+    }
+}
+
+.recorder-container {
+    position: fixed;
+    left: 50%;
+    bottom: 40px;
+}
+
+    .recorder-container #btn {
+        display: none;
+    }
+
+        .recorder-container #btn + label:before {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 100px;
+            height: 100px;
+            margin: -65px -65px;
+            content: "";
+            -webkit-transform: translate(-6px, -6px);
+            -ms-transform: translate(-6px, -6px);
+            transform: translate(-6px, -6px);
+            border-radius: 50%;
+            border: 6px solid #fff;
+            cursor: pointer;
+            box-sizing: unset;
+        }
+
+        .recorder-container #btn + label:after {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 70px;
+            height: 70px;
+            margin: -50px -50px;
+            content: "";
+            border-radius: 50px;
+            background: #e80415;
+            cursor: pointer;
+            box-sizing: unset;
+        }
+
+        .recorder-container #btn:checked + label:after {
+            -webkit-animation: stop 0.5s infinite cubic-bezier(0.4, -0.9, 0.9, 1);
+            -moz-animation: stop 0.5s infinite cubic-bezier(0.4, -0.9, 0.9, 1);
+            -o-animation: stop 0.5s infinite cubic-bezier(0.4, -0.9, 0.9, 1);
+            animation: stop 0.5s infinite cubic-bezier(0.4, -0.9, 0.9, 1);
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+        }
